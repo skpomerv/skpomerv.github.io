@@ -21,12 +21,10 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "first": "npm install --save gh-pages",
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",
-    "deploy2": "npm run deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
